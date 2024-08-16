@@ -5,14 +5,14 @@ Config = {
     EnableCancelKeybind = true,  -- Set this to false if you have something else on X, and then just use /e c to cancel emotes.
     CancelEmoteKey = 'x', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     MenuKeybindEnabled = true,
-    MenuKeybind = 'f4', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    MenuKeybind = 'f6', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     FavKeybindEnabled = true, -- You can disable the Favorite emote keybinding here.
     FavKeybind = 'capital', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     SqlKeybinding = false, -- If you have the SQL imported enable this to turn on keybinding.
     NotificationsAsChatMessage = false, -- If you don't like native GTA 5 notifications, you can disable them here to have messages in the chat.
     Framework = 'qb-core', -- Used for few framework-dependent things. Accepted values: 'qb-core', false
     Search = true, -- Used to enable or disable the search feature in the menu.
-    CancelPreviousEmote = false,     -- If turned on, playing an emote will cancel the previous one.
+    CancelPreviousEmote = true,     -- If turned on, playing an emote will cancel the previous one.
     DisableControls = false, -- Disable specific controls when menu is open, can be configured in NativeUI.lua:2452 (approximately)
 
     -- Menu Customization Options
@@ -31,7 +31,7 @@ Config = {
     AllowInWater = false, -- If turned off, opening the menu and playing an emote will not be possible while swimming
 
     -- Ragdoll options
-    RagdollEnabled = false,     -- You can enable or disable the Ragdoll keybinding here.
+    RagdollEnabled = true,     -- You can enable or disable the Ragdoll keybinding here.
     RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
     RagdollAsToggle = true,
@@ -47,7 +47,7 @@ Config = {
 
     -- Hands Up Options
     HandsupEnabled = false, -- You can disable the handsup here / change the keybind. It is currently set to Y
-    HandsupKeybind = 'Y', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    HandsupKeybind = 'X', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     HandsupKeybindEnabled = false,
     HandsupKeybindInCarEnabled = false,
     PersistentEmoteAfterHandsup = true, -- If true, you will play the emote you were playing previously after you stop handsup.
